@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        /*   SELETORES PERSONALIZADOS
+
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = clildren
+        */
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+           
+        }
+        a {
+            font-size: 2em;
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+
+}
+a:visited {
+    color: rgb(31, 21, 119);
+
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: yellow
+    ;
+}
+a::after{
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(156, 150, 150);
+}
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Face</a></li>
+        <li><a href="#">Youtube</a></li>
+    </ul>
+
+</body>
+</html>
