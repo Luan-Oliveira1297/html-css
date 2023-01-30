@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0%;
+        }
+        #container{
+            padding: 0px;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: relative;
+            height:100vh;
+            background-color: blue;
+        }
+        #conteudo{background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 600px;
+            width: 200px;
+            left: 2%;
+            top: 1%;
+            background-color:brown
+        }
+        #conteudo > h1{
+            text-align: center;
+            font-size: 29px;
+            padding: 0px;
+            margin: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration: underline;
+        }
+        #conteudo > p{
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .cabeçalho > h1 {
+            background-size: 100% 100%;
+            position: absolute;
+            height: 30px;
+            width: 200px;
+            left: 20%;
+            top: -9px;
+            background-color: brown;
+
+        }
+        .cabeçalho > nav {background-size: 100% 100%;
+            position: absolute;
+            height: 30px;
+            width: 500px;
+            top: 12px;
+            left: 60%;
+            background-color: brown;
+
+        }
+        .cabeçalho > nav > a {
+            text-decoration: none;
+            color: black;
+            padding-left:90px ;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+            <h1>Test</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, id. Voluptate, ad? Itaque voluptates veritatis, et dolor aliquid dignissimos cum hic sit facere dolore provident odio voluptatem quaerat. Iste, dignissimos.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quo quibusdam velit. Dicta ipsa iusto voluptas? Officia nesciunt adipisci consequatur suscipit numquam debitis? Magni voluptas excepturi nisi corporis. Inventore, dolor!Lorem</p>
+        </article>
+        <div class="cabeçalho">
+            
+            <h1>Seja bem vindo</h1>
+            <nav>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+            </nav>
+        </div>
+    </section>
+
+</body>
+</html>
