@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+}
+:root {
+    --laranja: rgb(255, 187, 0);
+    --preto-claro: rgb(104, 103, 103);
+    --preto-bem-mais-claro: rgb(236, 232, 232)
+}
+body {
+    background-color: var(--preto-bem-mais-claro);
+ }
+ /* Cabeçalho */
+header{
+    background-color: rgb(255, 187, 0);
+    text-align: center;
+    box-shadow: 01px 01px 02px rgba(5, 5, 5, 0.418);
+    
+}
+.cabeçalho > h1 {
+    color: rgb(104, 103, 103);
+    font-size: 3rem;
+    padding: 10px;
+}
+.cabeçalho > h1 > #branco {
+    color: rgb(255, 255, 255);
+}
+.cabeçalho > .menu {
+    padding: 15px;
+}
+header > .menu > nav {
+    padding-bottom: 12px;
+}
+header > .menu > nav > a {
+    font-size: 1.2rem;
+    padding: 10px 13px ;
+    color: white;
+    text-decoration: none;
+}
+header > .menu > nav > a:hover{
+    color:rgb(255, 187, 0) ;
+    background-color: white;
+}
+/* fim cabeçalho */
+a {
+    color: var(--laranja);
+    text-decoration: none;
+}
+#postagem {
+padding-top: 10px ;
+    width: 920px;
+    margin: auto;
+}
+.area-principal {
+    box-shadow: 01px 01px 02px rgba(5, 5, 5, 0.418);
+    padding: 10px;
+    width: 620px;
+    float: left;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.area-principal > a:hover {
+    text-decoration: underline;
+}
+.area-principal > img {
+    width: 620px;
+}
+.area-principal > h1{ 
+    color: var(--laranja);
+}
+.area-principal > #data-postagem {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.area-lateral{
+    box-shadow: 01px 01px 02px rgba(5, 5, 5, 0.418);
+    background-color: white;
+    float: right;
+    width: 250px;
+    padding: 10px;
+}
+.area-lateral >.texto-lateral h2 {
+    color: var(--laranja);
+    background-color: rgb(236, 232, 232);
+}
+.area-lateral > .texto-lateralp {
+    text-align: center;
+}
+.area-lateral > .texto-lateral a:hover {
+    text-decoration: underline;
+}
+.area-lateral-2{
+    box-shadow: 01px 01px 02px rgba(5, 5, 5, 0.418);
+    margin-top: 10px;
+    background-color: white;
+    float: right;
+    width: 250px;
+    padding: 10px;
+}
+.area-lateral-2 > h2 {
+    color: var(--laranja);
+    background-color: rgb(236, 232, 232);
+}
+.area-lateral-2 > nav > a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+footer {
+clear: both;
+text-align: center;
+background-color:rgb(255, 187, 0) ;
+font-size: 8px;
+}
